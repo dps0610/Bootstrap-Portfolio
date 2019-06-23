@@ -44,3 +44,25 @@ footer {
     border-top-color: #4aaaa5;
     background: #777777 !important;
 }
+
+.container {
+    background: #ffffff;
+    Border: solid;
+    border-width: 2px;
+    border-color: #777777;
+    margin-bottom: 50px;
+    width: 960px;
+    color: #777777;
+}
+
+#Contact {
+    color: #4aaaa5 !important;
+    border-bottom: 5px !important;
+    border-bottom-color: #777777 !important;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #4aaaa5;
+}
