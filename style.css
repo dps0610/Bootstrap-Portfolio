@@ -1,9 +1,46 @@
 .body {
-    background: lightgrey !important;
+    background-image: url(images/concrete-texture.png) !important;
+}
+
+nav {
+    border-bottom:solid;
+    border-width: 2px;
+    border-bottom-color: #dddddd;
 }
 
 .navbar-brand {
     background: #4aaaa5 !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
+}
+
+#portfolio {
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.media {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #777777;
+}
+
+img, section {
+    display: inline;
+}
+
+h5 {
+    color: #4aaaa5 !important;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+}
+
+footer {
+    Border-top: solid;
+    border-width: 8px;
+    border-top-color: #4aaaa5;
+    background: #777777 !important;
 }
