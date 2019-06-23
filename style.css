@@ -1,3 +1,7 @@
+.body {
+    background: lightgrey !important;
+}
+
 .navbar-brand {
     background: #4aaaa5 !important;
     margin-top: 0px !important;
