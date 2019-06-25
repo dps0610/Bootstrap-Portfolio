@@ -1,84 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 
     <title>David Short Portfolio</title>
-</head>
-<body class="body">
+  </head>
+  <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-0 pb-0 mb-5">
-        <h3 class="navbar-brand p-4 ml-5 text-center text-white" href="#">David Short</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="navbar-nav ml-auto mr-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item" id="portfolio">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-    </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div class="well well-sm">
-                <form class="form-horizontal" action="" method="post">
-                <fieldset>
-                  <legend class="text-left" id="Contact">Contact Me</legend>
-          
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="name">Name</label>
-                    <div class="col-md-9">
-                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                    <div class="col-md-9">
-                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                    </div>
-                  </div>
-          
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="message">Your message</label>
-                    <div class="col-md-9">
-                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                    </div>
-                  </div>
-          
-                  <div class="form-group">
-                    <div class="col-md-12 text-left">
-                      <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
-                    </div>
-                  </div>
-                </fieldset>
-                </form>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">David Short</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse container" id="navbarNavAltMarkup">
+          <div class="row w-100">
+            <div class="col-8"></div>
+            <div class="col-4">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
               </div>
             </div>
+          </div>
         </div>
       </div>
+    </nav>
 
-    <footer class="page-footer font-small">
-      <div class="footer-copyright text-center py-3 text-white p-3">
+    <br>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+              <form class="form-horizontal" action="" method="post">
+              <fieldset>
+                <legend class="text-left">Contact Me</legend>
+        
+                <!-- Name input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="name">Name</label>
+                  <div class="col-md-9">
+                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                  </div>
+                </div>
+        
+                <!-- Email input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                  <div class="col-md-9">
+                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                  </div>
+                </div>
+        
+                <!-- Message body -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="message">Your Message</label>
+                  <div class="col-md-9">
+                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                  </div>
+                </div>
+        
+                <!-- Form actions -->
+                <div class="form-group">
+                  <div class="col-md-12 text-left">
+                    <button type="submit" class="btn btn-primary btn-lg btn-info">Submit</button>
+                  </div>
+                </div>
+              </fieldset>
+              </form>
+            </div>
+          </div>
       </div>
-    </footer>
-    
+    </div>
 
 
-</body>
+    <nav class="nav bg-info p-3 justify-content-center">
+      <a class="nav-link active text-light" href="#">Copyright</a>
+    </nav>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
